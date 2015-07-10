@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DateTypeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hf7-1z-9lO">
+                                <rect key="frame" x="20" y="91" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="簡易表示">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc01:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kc6-dn-N2n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8f-pP-kcP">
+                                <rect key="frame" x="20" y="137" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="表示（書式スタイル設定）">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc02:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dw3-Av-VMq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtE-Ae-CHG">
+                                <rect key="frame" x="20" y="183" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="表示（書式設定）">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc03:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6ob-tD-wja"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6QU-58-6nJ">
+                                <rect key="frame" x="20" y="227" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="表示（言語環境設定）">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc04:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="v20-tR-XrF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="015-2u-8M0">
+                                <rect key="frame" x="20" y="271" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="ロケール識別子一覧">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc05:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="g3t-Qi-dZA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsJ-cd-ANk">
+                                <rect key="frame" x="20" y="313" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="タイムゾーン一覧">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc07:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oL5-Jb-sXG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agF-lI-9if">
+                                <rect key="frame" x="20" y="357" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="文字列から変換">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc08:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wEG-tW-RNM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndF-VP-mMz">
+                                <rect key="frame" x="20" y="402" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.91305686760000004" green="1" blue="0.67758939679999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="一致判定">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc10:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6N4-8b-O0K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="015-2u-8M0" firstAttribute="trailing" secondItem="XsJ-cd-ANk" secondAttribute="trailing" id="1vg-KB-DQZ"/>
+                            <constraint firstItem="Hf7-1z-9lO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="4" id="4ek-bv-Oii"/>
+                            <constraint firstItem="015-2u-8M0" firstAttribute="top" secondItem="6QU-58-6nJ" secondAttribute="bottom" constant="14" id="4sj-Ka-fsy"/>
+                            <constraint firstItem="Hf7-1z-9lO" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="71" id="64r-Yo-Bay"/>
+                            <constraint firstItem="g8f-pP-kcP" firstAttribute="leading" secondItem="Hf7-1z-9lO" secondAttribute="leading" id="7B0-X5-PA9"/>
+                            <constraint firstItem="015-2u-8M0" firstAttribute="leading" secondItem="XsJ-cd-ANk" secondAttribute="leading" id="8Iv-h4-0Wv"/>
+                            <constraint firstItem="Hf7-1z-9lO" firstAttribute="trailing" secondItem="g8f-pP-kcP" secondAttribute="trailing" id="AeS-pQ-kdZ"/>
+                            <constraint firstItem="6QU-58-6nJ" firstAttribute="top" secondItem="qtE-Ae-CHG" secondAttribute="bottom" constant="14" id="EYo-Iu-9Rk"/>
+                            <constraint firstItem="015-2u-8M0" firstAttribute="trailing" secondItem="6QU-58-6nJ" secondAttribute="trailing" id="LBX-2q-jdU"/>
+                            <constraint firstItem="g8f-pP-kcP" firstAttribute="top" secondItem="Hf7-1z-9lO" secondAttribute="bottom" constant="16" id="Qli-lO-aI1"/>
+                            <constraint firstItem="agF-lI-9if" firstAttribute="top" secondItem="XsJ-cd-ANk" secondAttribute="bottom" constant="14" id="Vkx-TQ-Chu"/>
+                            <constraint firstItem="qtE-Ae-CHG" firstAttribute="leading" secondItem="g8f-pP-kcP" secondAttribute="leading" id="WKY-FC-lE9"/>
+                            <constraint firstItem="XsJ-cd-ANk" firstAttribute="top" secondItem="015-2u-8M0" secondAttribute="bottom" constant="12" id="XzK-fR-Yqg"/>
+                            <constraint firstItem="agF-lI-9if" firstAttribute="trailing" secondItem="XsJ-cd-ANk" secondAttribute="trailing" id="YYr-Qj-VKi"/>
+                            <constraint firstItem="qtE-Ae-CHG" firstAttribute="trailing" secondItem="6QU-58-6nJ" secondAttribute="trailing" id="ZU6-vt-gJk"/>
+                            <constraint firstItem="qtE-Ae-CHG" firstAttribute="top" secondItem="g8f-pP-kcP" secondAttribute="bottom" constant="16" id="aAB-Ho-w00"/>
+                            <constraint firstItem="qtE-Ae-CHG" firstAttribute="trailing" secondItem="g8f-pP-kcP" secondAttribute="trailing" id="aH2-Ew-fxn"/>
+                            <constraint firstItem="agF-lI-9if" firstAttribute="leading" secondItem="ndF-VP-mMz" secondAttribute="leading" id="bo1-o0-QPv"/>
+                            <constraint firstItem="ndF-VP-mMz" firstAttribute="top" secondItem="agF-lI-9if" secondAttribute="bottom" constant="15" id="gNN-pR-Gpn"/>
+                            <constraint firstItem="6QU-58-6nJ" firstAttribute="leading" secondItem="015-2u-8M0" secondAttribute="leading" id="hqj-ct-tfW"/>
+                            <constraint firstItem="agF-lI-9if" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="m5U-IF-4Bs"/>
+                            <constraint firstItem="agF-lI-9if" firstAttribute="leading" secondItem="XsJ-cd-ANk" secondAttribute="leading" id="tFc-wy-nBz"/>
+                            <constraint firstItem="agF-lI-9if" firstAttribute="trailing" secondItem="ndF-VP-mMz" secondAttribute="trailing" id="wyV-vG-c1W"/>
+                            <constraint firstItem="qtE-Ae-CHG" firstAttribute="leading" secondItem="6QU-58-6nJ" secondAttribute="leading" id="zdR-ji-EYG"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298" y="337"/>
+        </scene>
+    </scenes>
+</document>
